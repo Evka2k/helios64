@@ -1,0 +1,12 @@
+pkg
+src
+50-usb-realtek-net.rules
+90-helios64-hwmon.rules
+90-helios64-ups.rules
+disable_auto_poweron
+fancontrol.conf
+fancontrol.service.pid-override
+helios64-1-0-aarch64.pkg.tar.xz
+helios64-heartbeat-led.service
+helios64-ups.service
+helios64-ups.timer
