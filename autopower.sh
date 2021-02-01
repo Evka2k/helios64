@@ -15,7 +15,7 @@ case $1 in
 	;;
 esac
 
-[[ $ON -eq 1 ]] && echo AutoPower: On || echo Autopower: Off
+[ $ON -eq 1 ] && echo AutoPower: On || echo Autopower: Off
 
 # Export GPIO
 # AUTO_ON_D

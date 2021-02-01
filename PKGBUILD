@@ -25,8 +25,8 @@ md5sums=('1b82df3b821132a74f8d4446afaad2f4'
          '6c28e4cc0c9bf6c98d49524a30ad8bc0'
          '78861321de40b749f5be59c5fb952f04'
          '5a2e17a71083bc12f1e9f6718dfdab2e'
-         'cdb7235f96a338291955876600e89bd5'
-         '1486ee89911bc6feda022a0cebaece20')
+         '9f28f50eb7e0ac5894c3b8bd25531644'
+         '4f48242fe82f96c44490d813300adda7')
 
 package() {
 	install -Dm644 fancontrol.service.pid-override "${pkgdir}"/etc/systemd/system/fancontrol.service.d/pid.conf
